@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="Body">
+    <nav class="navbar navbar-expand-lg  Navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand h1" href="#">
+                <img src="./images/logos/dark.png" class="d-inline-block align-text-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="white" class="bi bi-list"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse ms-auto" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link
+                        <% if(site === "index"){ %>Active<% } %>" href="/">Home
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link
+                        <% if(site === "blogs"){ %>Active<% } %>" href="blogs">Blogs
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link
+                        <% if(site === "officers"){ %>Active<% } %>" href="/officers">Officers
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link
+                        <% if(site === "events"){ %>Active<% } %>" href="#">Events
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link
+                        <% if(site === "contact"){ %>Active<% } %>" href="contact">Contact Us
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link
+                        <% if(site === "join"){ %>Active<% } %>" href="#">Join IEEE
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </nav>
