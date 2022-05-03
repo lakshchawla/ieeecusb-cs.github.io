@@ -14,13 +14,13 @@ app.use(express.static(__dirname + "/public"));
 //   useUnifiedTopology: true,
 // });
 
-mongoose.connect(
-  "mongodb+srv://module1:lakshay.UIMS2022@cluster0.ri7ea.mongodb.net/professionalSocieties?retryWrites=true&w=majority",
-  {
-    useNewUrlParser: true,
-    useUnifiedTopology: true,
-  }
-);
+// mongoose.connect(
+//   "mongodb+srv://module1:lakshay.UIMS2022@cluster0.ri7ea.mongodb.net/professionalSocieties?retryWrites=true&w=majority",
+//   {
+//     useNewUrlParser: true,
+//     useUnifiedTopology: true,
+//   }
+// );
 
 const { Schema } = mongoose;
 
