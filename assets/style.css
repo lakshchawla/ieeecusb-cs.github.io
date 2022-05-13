@@ -70,8 +70,8 @@ html {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("./images/pexels-photo-3184306.webp");
   height: 620px;
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
+  background-position: center; 
+  background-repeat: no-repeat; 
   background-size: cover;
   border-radius: 20px;
   margin: 20px auto;
@@ -489,9 +489,124 @@ input:focus ~ span,
   height: 200px;
   width: 200px;
   margin: 0 auto;
-  image-rendering: pixelated;
 }
 
 .card-body{
   text-align: center;
+}
+
+
+
+/*
+
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.Body {
+  background-color: #111111;
+  color: #6dd4b9;
+  max-width: 1700px;
+  margin: 0 auto;
+}
+
+.Navbar {
+  color: white;
+  padding-left: 50px;
+  padding-right: 50px;
+
+  position: sticky;
+  top: 0;
+}
+
+.Navbar img {
+  height: 100px;
+}
+
+.nav-link {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-size: 17px;
+  margin-left: 15px;
+}
+
+.nav-link:focus {
+  outline: none;
+  box-shadow: none;
+  color: white;
+}
+
+.Active {
+    color: black;
+  border-bottom: 1px solid black;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+.Container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 100vh;
+    background-color: #6dd4b9;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+.container{
+    color: white;
+}
+
+.container h1 span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+*/
+
+.userImg{
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+#imgDaa{
+  background-image: url("./images/officers/bp.jpg");
+}
+
+#imgss{
+  background-image: url("./images/officers/");
+}
+
+#imgsv{
+  background-image: url("./images/officers/");
+}
+
+#imgak{
+  background-image: url("./images/officers/");
+}
+
+#imgup{
+  background-image: url("./images/officers/");
 }

@@ -485,3 +485,71 @@ input:focus ~ span,
   width: 30px;
 }
 
+
+.card-img-top{
+  height: 200px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.card-body{
+  text-align: center;
+}
+
+
+.userImg{
+  height: 200px;
+  width: 200px;
+  margin: 20px auto;
+  background-position: center; 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+
+
+#imgDaa{
+  background-image: url("./images/officers/bp.jpeg");
+}
+
+#imgss{
+  background-image: url("./images/officers/ss.jpeg");
+}
+
+#imgsv{
+  background-image: url("./images/officers/sv.jpeg");
+}
+
+#imgak{
+  background-image: url("./images/officers/ak.jpeg");
+}
+
+#imgup{
+  background-image: url("./images/officers/up.jpeg");
+}
+
+#imglc{
+  background-image: url("./images/officers/lc.jpeg");
+}
+
+#imgvs{
+  background-image: url("./images/officers/vs.jpeg");
+}
+
+#imgag{
+  background-image: url("./images/officers/ag.jpeg");
+}
+
+.donePage{
+  margin-top: 36vh;
+  text-align: center;
+}
+
+.donePage a{
+  color: #faa41a;
+  text-decoration: none;
+}
+
+.linkFoot{
+  color: #faa41a;
+}

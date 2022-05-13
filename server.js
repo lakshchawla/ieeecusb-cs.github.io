@@ -14,13 +14,13 @@ app.use(express.static(__dirname + "/public"));
 //   useUnifiedTopology: true,
 // });
 
-// mongoose.connect(
-//   "mongodb+srv://module1:lakshay.UIMS2022@cluster0.ri7ea.mongodb.net/professionalSocieties?retryWrites=true&w=majority",
-//   {
-//     useNewUrlParser: true,
-//     useUnifiedTopology: true,
-//   }
-// );
+mongoose.connect(
+  "mongodb+srv://module1:lakshay.UIMS2022@cluster0.ri7ea.mongodb.net/professionalSocieties?retryWrites=true&w=majority",
+  {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+  }
+);
 
 const { Schema } = mongoose;
 
@@ -69,16 +69,16 @@ app.post("/contact", (req, res) => {
   });
 
   newMsg.save();
-  res.redirect("/");
+  res.render("done");
 });
 
-app.post("/newsletter", (req, res) => {
+app.post("/newsletter-signup", (req, res) => {
   const newsub = new newsletterSubscription({
     Email: req.body.email,
   });
 
   newsub.save();
-  res.redirect("/");
+  res.render("done");
 });
 
 app.get("/blog", (req, res) => {
